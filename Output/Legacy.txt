@@ -1,23 +1,104 @@
-PS C:\Program Files\btc> & C:/Users/jothi/AppData/Local/Programs/Python/Python312/python.exe c:/Users/jothi/legacy_atob.py
-⚠ Wallet 'Byteshru' already exists. Loading it...
-🏦 Address A: mmPAG9gdwj4bCwgVWiSdTsXMPQDc7MUozJ
-🏦 Address B: n3HGmSVGsgzyb5zryJyPxwtmBeA63VkmtR
-🏦 Address C: mjRiryZAiXbfp7hK1X6iMf7wMEQg2aAEEw
-⛏ Mined 101 blocks to: mrZYF2mUmuvXy8APD3aNyjHtsxs5yCzJ2E
-💰 Wallet balance: 11.49291874 BTC
-💰 Funded Address A with 1.0 BTC. TXID: 40b15a94987cf41b54597e8568e2782fc118d1b213cb631aa31ff42fe8c8d8e5
-✅ Mined 1 block to confirm funding transaction.
-🔎 Using UTXO: 40b15a94987cf41b54597e8568e2782fc118d1b213cb631aa31ff42fe8c8d8e5 with amount 1.00000000 BTC
-📢 Transaction A → B & A broadcasted. TXID: cf9e3b0f43f27a7c2ddd5e497d28a955c38cee01e481f19c0bb3dcd643bdd85b
-📜 Decoded Transaction A → B: {'txid': 'cf9e3b0f43f27a7c2ddd5e497d28a955c38cee01e481f19c0bb3dcd643bdd85b', 'hash': 'cf9e3b0f43f27a7c2ddd5e497d28a955c38cee01e481f19c0bb3dcd643bdd85b', 'version': 2, 'size': 225, 'vsize': 225, 'weight': 900, 'locktime': 0, 'vin': [{'txid': '40b15a94987cf41b54597e8568e2782fc118d1b213cb631aa31ff42fe8c8d8e5', 'vout': 1, 'scriptSig': {'asm': '3044022038d2a312bf7940c77c14cd35de984b07fe8691a375690ae0124c202b88014d0a02201c08a2d98deaf64ce725d4919a2cb2b1a96892c5076c35525968005c3e40c661[ALL] 03706978656c4acbc2428b853c0d07c3e951634e86cf22bfee4254fa1b8583df45', 'hex': '473044022038d2a312bf7940c77c14cd35de984b07fe8691a375690ae0124c202b88014d0a02201c08a2d98deaf64ce725d4919a2cb2b1a96892c5076c35525968005c3e40c661012103706978656c4acbc2428b853c0d07c3e951634e86cf22bfee4254fa1b8583df45'}, 'sequence': 4294967293}], 'vout': [{'value': Decimal('0.69993000'), 'n': 0, 'scriptPubKey': {'asm': 'OP_DUP OP_HASH160 eebc5d1336d0e219605a72f09173659ad7fdbe00 OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(n3HGmSVGsgzyb5zryJyPxwtmBeA63VkmtR)#8th5nscc', 'hex': '76a914eebc5d1336d0e219605a72f09173659ad7fdbe0088ac', 'address': 'n3HGmSVGsgzyb5zryJyPxwtmBeA63VkmtR', 'type': 'pubkeyhash'}}, {'value': Decimal('0.29997000'), 'n': 1, 'scriptPubKey': {'asm': 'OP_DUP OP_HASH160 40576aad62681d04312cfc9f3634cd53dc9606f7 OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(mmPAG9gdwj4bCwgVWiSdTsXMPQDc7MUozJ)#dzkvfj34', 'hex': '76a91440576aad62681d04312cfc9f3634cd53dc9606f788ac', 'address': 'mmPAG9gdwj4bCwgVWiSdTsXMPQDc7MUozJ', 'type': 'pubkeyhash'}}]}    
-🔐 Locking Script for Address B (ScriptPubKey): {'asm': 'OP_DUP OP_HASH160 eebc5d1336d0e219605a72f09173659ad7fdbe00 OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(n3HGmSVGsgzyb5zryJyPxwtmBeA63VkmtR)#8th5nscc', 'hex': '76a914eebc5d1336d0e219605a72f09173659ad7fdbe0088ac', 'address': 'n3HGmSVGsgzyb5zryJyPxwtmBeA63VkmtR', 'type': 'pubkeyhash'}
-✅ Mined 1 block to confirm A → B & A transaction.
-🔎 Using UTXO: cf9e3b0f43f27a7c2ddd5e497d28a955c38cee01e481f19c0bb3dcd643bdd85b with amount 0.69993000 BTC
-📢 Transaction B → C & B broadcasted. TXID: be05c25207c971f2f71b77f921df2dbf9aa9f99d9a1cc5bde2345170037788f9
-📜 Decoded Transaction B → C: {'txid': 'be05c25207c971f2f71b77f921df2dbf9aa9f99d9a1cc5bde2345170037788f9', 'hash': 'be05c25207c971f2f71b77f921df2dbf9aa9f99d9a1cc5bde2345170037788f9', 'version': 2, 'size': 225, 'vsize': 225, 'weight': 900, 'locktime': 0, 'vin': [{'txid': 'cf9e3b0f43f27a7c2ddd5e497d28a955c38cee01e481f19c0bb3dcd643bdd85b', 'vout': 0, 'scriptSig': {'asm': '304402206f3205b245a2b95d4bd0d1940d8da8ed48581398ebf60785cf6f9385c1ff88ab0220663c1f170de20c4e9465a36940f4e77c488df5404dff81250fe91ccbdd57b750[ALL] 03438b860a949edf27886376c5f21510e7ae8409a9e79354b70f5a9601bb64ae6b', 'hex': '47304402206f3205b245a2b95d4bd0d1940d8da8ed48581398ebf60785cf6f9385c1ff88ab0220663c1f170de20c4e9465a36940f4e77c488df5404dff81250fe91ccbdd57b750012103438b860a949edf27886376c5f21510e7ae8409a9e79354b70f5a9601bb64ae6b'}, 'sequence': 4294967293}], 'vout': [{'value': Decimal('0.34991500'), 'n': 0, 'scriptPubKey': {'asm': 'OP_DUP OP_HASH160 2ae335e5dec5b186b89589fe06805c6170d477cc OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(mjRiryZAiXbfp7hK1X6iMf7wMEQg2aAEEw)#zaveklex', 'hex': '76a9142ae335e5dec5b186b89589fe06805c6170d477cc88ac', 'address': 'mjRiryZAiXbfp7hK1X6iMf7wMEQg2aAEEw', 'type': 'pubkeyhash'}}, {'value': Decimal('0.34991500'), 'n': 1, 'scriptPubKey': {'asm': 'OP_DUP OP_HASH160 eebc5d1336d0e219605a72f09173659ad7fdbe00 OP_EQUALVERIFY OP_CHECKSIG', 'desc': 'addr(n3HGmSVGsgzyb5zryJyPxwtmBeA63VkmtR)#8th5nscc', 'hex': '76a914eebc5d1336d0e219605a72f09173659ad7fdbe0088ac', 'address': 'n3HGmSVGsgzyb5zryJyPxwtmBeA63VkmtR', 'type': 'pubkeyhash'}}]}    
-🔓 Unlocking Script for Address B (ScriptSig): {'asm': '304402206f3205b245a2b95d4bd0d1940d8da8ed48581398ebf60785cf6f9385c1ff88ab0220663c1f170de20c4e9465a36940f4e77c488df5404dff81250fe91ccbdd57b750[ALL] 03438b860a949edf27886376c5f21510e7ae8409a9e79354b70f5a9601bb64ae6b', 'hex': '47304402206f3205b245a2b95d4bd0d1940d8da8ed48581398ebf60785cf6f9385c1ff88ab0220663c1f170de20c4e9465a36940f4e77c488df5404dff81250fe91ccbdd57b750012103438b860a949edf27886376c5f21510e7ae8409a9e79354b70f5a9601bb64ae6b'}
-✅ Mined 1 block to confirm B → C & B transaction.
-
-✅ Transaction details saved to: C:\Users\jothi/Documents/Complete_transaction_details.txt
-
-🎉 Transactions A → B & A and B → C & B completed successfully!
+{
+    "legacy": {
+        "addressA": "mkzpqqjxfqQiFR6pyhsBa3UxXkvvZ7ogA5",
+        "addressB": "mtVjRtoke3zPsAUkEsby1wNzHbM3mxSr9K",
+        "addressC": "mmS22hGDRGqiiuwfJfLrdQZdNujskzT4qz",
+        "fundingTxid": "d8dad6dede3f358fc7a270996366d74eebd315a907f3e36b52bd860674eb23ce",
+        "txAtoB": {
+            "txid": "eda34dad69eb9769b86913fc033a562f86400a3a331e0729ec3fe3a19b83adc6",
+            "rawHex": "0200000001ce23eb740686bd526be3f307a915d3eb4ed766639970a2c78f353fdeded6dad8000000006a473044022019cdc293da8a1b538f64d5d73f622b7869b30238f32f3f7e3d3acbe81c960d9402206970c8b8616a7012ea2d9b2a1ac7a769b7390a4ec09ec8baded6af2791cc78ae01210235f0395315b913a2ac70173f9b08b65fde600137931371358e6a1bbfa9883358fdffffff0228022c04000000001976a9148e5e7aef0ce4c4aad0e4e17a4cc3307bad0a045488acc8b7c901000000001976a9143c1e0e26b35c55e778b67104e084275fce1ed27188ac00000000",
+            "decoded": {
+                "txid": "eda34dad69eb9769b86913fc033a562f86400a3a331e0729ec3fe3a19b83adc6",
+                "hash": "eda34dad69eb9769b86913fc033a562f86400a3a331e0729ec3fe3a19b83adc6",
+                "version": 2,
+                "size": 225,
+                "vsize": 225,
+                "weight": 900,
+                "locktime": 0,
+                "vin": [
+                    {
+                        "txid": "d8dad6dede3f358fc7a270996366d74eebd315a907f3e36b52bd860674eb23ce",
+                        "vout": 0,
+                        "scriptSig": {
+                            "asm": "3044022019cdc293da8a1b538f64d5d73f622b7869b30238f32f3f7e3d3acbe81c960d9402206970c8b8616a7012ea2d9b2a1ac7a769b7390a4ec09ec8baded6af2791cc78ae[ALL] 0235f0395315b913a2ac70173f9b08b65fde600137931371358e6a1bbfa9883358",
+                            "hex": "473044022019cdc293da8a1b538f64d5d73f622b7869b30238f32f3f7e3d3acbe81c960d9402206970c8b8616a7012ea2d9b2a1ac7a769b7390a4ec09ec8baded6af2791cc78ae01210235f0395315b913a2ac70173f9b08b65fde600137931371358e6a1bbfa9883358"
+                        },
+                        "sequence": 4294967293
+                    }
+                ],
+                "vout": [
+                    {
+                        "value": 0.69993,
+                        "n": 0,
+                        "scriptPubKey": {
+                            "asm": "OP_DUP OP_HASH160 8e5e7aef0ce4c4aad0e4e17a4cc3307bad0a0454 OP_EQUALVERIFY OP_CHECKSIG",
+                            "desc": "addr(mtVjRtoke3zPsAUkEsby1wNzHbM3mxSr9K)#6hngxamz",
+                            "hex": "76a9148e5e7aef0ce4c4aad0e4e17a4cc3307bad0a045488ac",
+                            "address": "mtVjRtoke3zPsAUkEsby1wNzHbM3mxSr9K",
+                            "type": "pubkeyhash"
+                        }
+                    },
+                    {
+                        "value": 0.29997,
+                        "n": 1,
+                        "scriptPubKey": {
+                            "asm": "OP_DUP OP_HASH160 3c1e0e26b35c55e778b67104e084275fce1ed271 OP_EQUALVERIFY OP_CHECKSIG",
+                            "desc": "addr(mkzpqqjxfqQiFR6pyhsBa3UxXkvvZ7ogA5)#xxnhnqqs",
+                            "hex": "76a9143c1e0e26b35c55e778b67104e084275fce1ed27188ac",
+                            "address": "mkzpqqjxfqQiFR6pyhsBa3UxXkvvZ7ogA5",
+                            "type": "pubkeyhash"
+                        }
+                    }
+                ]
+            }
+        },
+        "txBtoC": {
+            "txid": "e0f4e8b9e5a62c6946b77853c51c8d485c4ab2b875f826859f4565ed2fcee7d0",
+            "rawHex": "0200000001c6ad839ba1e33fec29071e333a0a40862f563a03fc1369b86997eb69ad4da3ed000000006a4730440220526f90e9455261bd06496bcd2fc8346cf1d6c8069f5412878a95daec2aa55c4902201edb7d6a4f270dcb764d2f4c92881f12f88633e52b271052a8708048443255fa012103f12186182892f433ef6be961626ab84d5bcc24a819f575ea070457691046fb27fdffffff028ced1502000000001976a91440e1caf9b38ded2b963d452d7c82ef0d1c61978588ac8ced1502000000001976a9148e5e7aef0ce4c4aad0e4e17a4cc3307bad0a045488ac00000000",
+            "decoded": {
+                "txid": "e0f4e8b9e5a62c6946b77853c51c8d485c4ab2b875f826859f4565ed2fcee7d0",
+                "hash": "e0f4e8b9e5a62c6946b77853c51c8d485c4ab2b875f826859f4565ed2fcee7d0",
+                "version": 2,
+                "size": 225,
+                "vsize": 225,
+                "weight": 900,
+                "locktime": 0,
+                "vin": [
+                    {
+                        "txid": "eda34dad69eb9769b86913fc033a562f86400a3a331e0729ec3fe3a19b83adc6",
+                        "vout": 0,
+                        "scriptSig": {
+                            "asm": "30440220526f90e9455261bd06496bcd2fc8346cf1d6c8069f5412878a95daec2aa55c4902201edb7d6a4f270dcb764d2f4c92881f12f88633e52b271052a8708048443255fa[ALL] 03f12186182892f433ef6be961626ab84d5bcc24a819f575ea070457691046fb27",
+                            "hex": "4730440220526f90e9455261bd06496bcd2fc8346cf1d6c8069f5412878a95daec2aa55c4902201edb7d6a4f270dcb764d2f4c92881f12f88633e52b271052a8708048443255fa012103f12186182892f433ef6be961626ab84d5bcc24a819f575ea070457691046fb27"
+                        },
+                        "sequence": 4294967293
+                    }
+                ],
+                "vout": [
+                    {
+                        "value": 0.349915,
+                        "n": 0,
+                        "scriptPubKey": {
+                            "asm": "OP_DUP OP_HASH160 40e1caf9b38ded2b963d452d7c82ef0d1c619785 OP_EQUALVERIFY OP_CHECKSIG",
+                            "desc": "addr(mmS22hGDRGqiiuwfJfLrdQZdNujskzT4qz)#93xgqgcw",
+                            "hex": "76a91440e1caf9b38ded2b963d452d7c82ef0d1c61978588ac",
+                            "address": "mmS22hGDRGqiiuwfJfLrdQZdNujskzT4qz",
+                            "type": "pubkeyhash"
+                        }
+                    },
+                    {
+                        "value": 0.349915,
+                        "n": 1,
+                        "scriptPubKey": {
+                            "asm": "OP_DUP OP_HASH160 8e5e7aef0ce4c4aad0e4e17a4cc3307bad0a0454 OP_EQUALVERIFY OP_CHECKSIG",
+                            "desc": "addr(mtVjRtoke3zPsAUkEsby1wNzHbM3mxSr9K)#6hngxamz",
+                            "hex": "76a9148e5e7aef0ce4c4aad0e4e17a4cc3307bad0a045488ac",
+                            "address": "mtVjRtoke3zPsAUkEsby1wNzHbM3mxSr9K",
+                            "type": "pubkeyhash"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
