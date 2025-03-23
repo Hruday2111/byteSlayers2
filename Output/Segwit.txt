@@ -1,0 +1,23 @@
+PS C:\Program Files\btc> & C:/Users/jothi/AppData/Local/Programs/Python/Python312/python.exe c:/Users/jothi/segwit_transactions.py
+⚠ Wallet 'Byteshru' already exists. Loading it...
+🏦 Legacy Address A: mrYmgmha8SG17D66Qg2yTpPtquSB3pPrP7
+🏦 Legacy Address B: mkKBStbh3GmAHfcyit7KKXLy5AMKTdHvZi
+🏦 Legacy Address C: moAh6HTNxq7RXrZu1RNVPs5zw3RpX9sgH7
+🏦 SegWit Address A': 2MteCehxRhowXsnVuCjgfgoqNpp2ZwNpggX
+🏦 SegWit Address B': 2N5QLNfEdqSh47c3tNPNQtpiXcFNsh3AN38
+🏦 SegWit Address C': 2MxsfduTRgAEPPyF5U14NqTtZL6bDpPT3hU
+⛏ Mined 50 blocks to: mgxUD8RUc6fCcfZFK4qBispmebiHk8A4kh
+💰 Funded Address A with 1.0 BTC. TXID: 1c85ca266062966f44b56d81f5366da3f73cc7f59010cb913f49ef02f9138b82
+✅ Mined 1 block to confirm funding transaction.
+📢 Transaction A → B & A broadcasted. TXID: 9ce50f8a9a03142c793641a3e5f586f898aab7958541c19e5fbeb363e4c85126
+✅ Mined 1 block to confirm A → B & A transaction.
+📢 Transaction B → C & B broadcasted. TXID: 5d814a8d9fab5990c5ef4809d0aff0df1b48ec19f99b7ea9aa794b24613cc6d3
+✅ Mined 1 block to confirm B → C & B transaction.
+💰 Funded SegWit Address A' with 1.0 BTC. TXID: fb97ed691a4c21257a7d9cf2159435b8ce0b2fa18f80e37cf23ee2a0d27542a8
+✅ Mined 1 block to confirm SegWit funding transaction.
+📢 SegWit Transaction A' → B' & A' broadcasted. TXID: 15af3d608d2a3bac51188ea559790c1fe08afe5bf7e7b55620b554cd0ff8e041
+✅ Mined 1 block to confirm A' → B' & A' transaction.
+
+✅ Transaction details saved to: C:\Users\jothi/Documents/Complete_transaction_details.txt
+
+🎉 All Legacy & SegWit Transactions Completed Successfully!
